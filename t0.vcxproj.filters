@@ -45,6 +45,9 @@
     <Filter Include="Source Files\mobile">
       <UniqueIdentifier>{62714a75-12e3-4ff2-a535-6b528ffea302}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Form Files\ui">
+      <UniqueIdentifier>{b9aab350-8b4e-404c-9020-b04169117d25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -186,5 +189,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="backgroundImage.jpg" />
+    <None Include="ui\test.ui">
+      <Filter>Form Files\ui</Filter>
+    </None>
   </ItemGroup>
 </Project>
