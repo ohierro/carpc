@@ -1,0 +1,7 @@
+#centralWidget {
+	background-image: url(./back02.jpg);
+}
+
+#pushButton {
+	background-image: url(./music.png);
+}

@@ -1,0 +1,37 @@
+<contacts version="1.0">
+	<contact>
+		<name>User1</name>		
+		<phones>
+			<phone>
+				<name>My mobile</name>
+				<type>MOBILE</type>
+				<number>555012345</number>
+			</phone>	
+			<phone>
+				<name>My home</name>
+				<type>HOME</type>
+				<number>976555555</number>
+			</phone>	
+		</phones>
+	</contact>
+	<contact>
+		<name>User2</name>	
+		<phones>
+			<phone>
+				<name>Personal phone</name>
+				<type>MOBILE</type>
+				<number>655987654</number>
+			</phone>			
+		</phones>
+	</contact>
+	<contact>
+		<name>Mum</name>
+		<phones>
+			<phone>
+				<name>Mum's phone</name>
+				<type>MOBILE</type>
+				<number>656123456</number>
+			</phone>			
+		</phones>		
+	</contact>
+</contacts>

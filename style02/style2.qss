@@ -1,0 +1,58 @@
+#MainForm {
+	background-image: url(./style02/back02.jpg);
+}
+
+#MusicForm {
+	background-image: url(./style02/back02.jpg);
+}
+
+#MobileForm {
+	background-image: url(./style02/back02.jpg);
+}
+
+#musicButton {
+	background-image: url(./style02/music.png);
+}
+
+#gpsButton {
+	background-image: url(./style02/gps.png);
+}
+
+#mobileButton {
+	background-image: url(./style02/mobile.png);
+}
+
+#configButton {
+	background-image: url(./style02/config.png);
+}
+
+#playButton {
+	background-image: url(./style02/play.png);
+}
+
+#powerButton {
+	background-image: url(./style02/powerButton.png);
+}
+
+QLabel {
+	color: black;
+}
+
+/*  MOBILE */
+#mobileNumberText {
+	background-color: black;
+	color: green;
+	font: bold 28px;
+}
+
+#callButton {
+	background-color: green;
+}
+
+#hangUpButton {
+	background-color: red;
+}
+
+#contactList {
+	font: 20px;
+}
