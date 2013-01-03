@@ -1,0 +1,3 @@
+#centralWidget {
+	background-image: url(./back01.jpg);
+}
