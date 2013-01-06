@@ -1,37 +1,30 @@
 <contacts version="1.0">
 	<contact>
-		<name>User1</name>		
+		<name>Óliver</name>		
 		<phones>
 			<phone>
-				<name>My mobile</name>
+				<name>Mio propio</name>
 				<type>MOBILE</type>
-				<number>555012345</number>
+				<number>669375509</number>
 			</phone>	
 			<phone>
-				<name>My home</name>
+				<name>Casa</name>
 				<type>HOME</type>
-				<number>976555555</number>
+				<number>876160236</number>
 			</phone>	
 		</phones>
 	</contact>
 	<contact>
-		<name>User2</name>	
+		<name>Lauri</name>	
 		<phones>
 			<phone>
-				<name>Personal phone</name>
+				<name>Móvil</name>
 				<type>MOBILE</type>
-				<number>655987654</number>
+				<number>695172835</number>
 			</phone>			
 		</phones>
 	</contact>
 	<contact>
-		<name>Mum</name>
-		<phones>
-			<phone>
-				<name>Mum's phone</name>
-				<type>MOBILE</type>
-				<number>656123456</number>
-			</phone>			
-		</phones>		
+		<name>Mamá</name>		
 	</contact>
 </contacts>

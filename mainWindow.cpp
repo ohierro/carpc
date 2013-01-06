@@ -20,6 +20,8 @@ MainWindow::MainWindow(QWidget *parent)
 	connect(mobileWindow->getBackButton(),SIGNAL(clicked()),this,SLOT(backToMain()));
 
 	loadStyleSheet("style02/style2.qss");
+
+	connect(ui.powerButton,SIGNAL(clicked()), qApp, SLOT(quit()));
 }
 
 MainWindow::~MainWindow() {
