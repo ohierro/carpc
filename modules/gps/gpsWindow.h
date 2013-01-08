@@ -2,6 +2,7 @@
 #define GPS_WINDOW_H
 
 #include <QMainWindow>
+#include "ui_mobileWindow.h"
 #include "ui_gpsWindow.h"
 
 class GPSWindow : public QWidget

@@ -4,10 +4,10 @@
 #include <QMainWindow>
 #include "ui_mainWindow.h"
 
-#include "gpsWindow.h"
-#include "musicWindow.h"
-#include "mobileWindow.h"
-#include "MusicPlayer.h"
+#include "modules/gps/gpsWindow.h"
+#include "modules/music/musicWindow.h"
+#include "modules/mobile/mobileWindow.h"
+#include "core/MusicPlayer.h"
 
 
 class MainWindow : public QMainWindow

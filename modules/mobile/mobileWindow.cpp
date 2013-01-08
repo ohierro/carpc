@@ -9,9 +9,8 @@
 
 #include "general.h"
 
-#include "MusicPlayer.h"
+#include "core/MusicPlayer.h"
 #include "ContactsDDBB.h"
-#include "ContactSelectDialog.h"
 
 MobileWindow::MobileWindow(MusicPlayer* player) 
 {
@@ -103,16 +102,16 @@ void MobileWindow::contactSelected() {
 			//ui.mobileNumberText = 
 			if (c->phones.size() == 1) {
 				ui.mobileNumberText->setText(c->phones[0]->number);
-			} else {
-				ContactSelectDialog* dialog = new ContactSelectDialog(c);
-				connect(dialog,SIGNAL(mobileSelected(QString)),this,SLOT(mobileSelected(QString)));
-				dialog->show();
+			} else {				
+				connect(&dialog,SIGNAL(mobileSelected(QString)),this,SLOT(mobileSelected(QString)));
+				dialog.show(c);
 			}
 		}
 	}
 }
 
 void MobileWindow::mobileSelected(QString number) {
+
 	ui.mobileNumberText->setText(number);
 }
 

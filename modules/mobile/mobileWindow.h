@@ -5,7 +5,8 @@
 #include <QStringListModel>
 #include "ui_mobileWindow.h"
 
-#include "MusicPlayer.h"
+#include "core/MusicPlayer.h"
+#include "ContactSelectDialog.h"
 #include "ContactsDDBB.h"
 
 class MobileWindow : public QMainWindow
@@ -20,6 +21,7 @@ public:
 
 private:
 	Ui::MobileForm ui;
+	ContactSelectDialog dialog;
 	
 	MusicPlayer* player;
 	ContactsDDBB ddbb;

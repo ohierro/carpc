@@ -5,7 +5,7 @@
 #include <QStringListModel>
 #include "ui_musicWindow.h"
 
-#include "MusicPlayer.h"
+#include "core/MusicPlayer.h"
 
 class MusicWindow : public QMainWindow
 {

@@ -3,9 +3,15 @@
 #include <QPushButton>
 #include <QSignalMapper>
 
-ContactSelectDialog::ContactSelectDialog(Contact* contact) {
+ContactSelectDialog::ContactSelectDialog() {
 	ui.setupUi(this);
+}
 
+ContactSelectDialog::~ContactSelectDialog() {
+
+}
+
+void ContactSelectDialog::show(Contact* contact) {
 	this->contact = contact;
 
 	QSignalMapper* signalMapper = new QSignalMapper(this);
@@ -15,14 +21,11 @@ ContactSelectDialog::ContactSelectDialog(Contact* contact) {
 		ui.verticalLayout->addWidget(button);
 
 		signalMapper->setMapping(button, QString(info->number));
-		connect(button, SIGNAL(clicked()), signalMapper, SLOT (map()));
+		connect(button, SIGNAL(clicked()), signalMapper, SLOT (map())); 
 	}
 
 	connect(signalMapper, SIGNAL(mapped(QString)),this, SLOT(clicked(QString)));
-}
-
-ContactSelectDialog::~ContactSelectDialog() {
-
+	QMainWindow::show();
 }
 
 void ContactSelectDialog::clicked(QString number) {

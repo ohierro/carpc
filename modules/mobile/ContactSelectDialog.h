@@ -11,8 +11,10 @@ class ContactSelectDialog : public QMainWindow
 	Q_OBJECT
 
 public:
-	ContactSelectDialog(Contact* contact);
+	ContactSelectDialog();
 	~ContactSelectDialog();
+
+	void show(Contact* contact);
 
 private:
 	Ui::ContactSelectDialog ui;

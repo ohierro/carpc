@@ -33,17 +33,35 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="Header Files\ddbb">
-      <UniqueIdentifier>{6cc86fdc-6117-4bb2-8ced-b71453d47ffd}</UniqueIdentifier>
+    <Filter Include="Header Files\modules">
+      <UniqueIdentifier>{c984d6f8-7789-4bc5-8e7c-8fda93af9aa5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ddbb">
-      <UniqueIdentifier>{e4488c64-823e-41d7-8ecd-88c9ef630b27}</UniqueIdentifier>
+    <Filter Include="Header Files\modules\mobile">
+      <UniqueIdentifier>{987c4f01-29f5-43cb-8b69-0a6981b968c6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\mobile">
-      <UniqueIdentifier>{83b8dbce-3c84-48ed-bf22-3d6cbd1c2c11}</UniqueIdentifier>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{536cd0f9-dbd9-47bb-a218-ca9dded774f0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\mobile">
-      <UniqueIdentifier>{62714a75-12e3-4ff2-a535-6b528ffea302}</UniqueIdentifier>
+    <Filter Include="Source Files\modules\mobile">
+      <UniqueIdentifier>{2854e43e-9c55-41bf-bbca-bd8ca01937f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\music">
+      <UniqueIdentifier>{59435a99-a683-4c99-ba0d-a971ac33042d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\music">
+      <UniqueIdentifier>{0a565fe4-64b5-4ad1-aa06-ff86e36323ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gps">
+      <UniqueIdentifier>{fdd60da0-4f9a-4e90-afe5-0e91c1938743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\gps">
+      <UniqueIdentifier>{cb96fe75-b3b7-41d0-9d4c-57937afb4606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{90396a7c-716d-4eec-a6ce-798b0bee852b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{23a72fd3-fd64-4aec-a0fb-086a0b0a335f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Form Files\ui">
       <UniqueIdentifier>{b9aab350-8b4e-404c-9020-b04169117d25}</UniqueIdentifier>
@@ -53,35 +71,8 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="t0.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_t0.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_t0.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\qrc_t0.cpp">
       <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_musicWindow.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_musicWindow.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="musicWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_gpsWindow.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_gpsWindow.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="gpsWindow.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_mainWindow.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -92,8 +83,11 @@
     <ClCompile Include="mainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MusicPlayer.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ContactSelectDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ContactSelectDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_mobileWindow.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -101,89 +95,92 @@
     <ClCompile Include="GeneratedFiles\Release\moc_mobileWindow.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="mobileWindow.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="modules\mobile\ContactsDDBB.cpp">
+      <Filter>Source Files\modules\mobile</Filter>
     </ClCompile>
-    <ClCompile Include="ContactsDDBB.cpp">
-      <Filter>Source Files\ddbb</Filter>
+    <ClCompile Include="modules\mobile\ContactSelectDialog.cpp">
+      <Filter>Source Files\modules\mobile</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_ContactSelectDialog.cpp">
+    <ClCompile Include="modules\mobile\mobileWindow.cpp">
+      <Filter>Source Files\modules\mobile</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_musicWindow.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_ContactSelectDialog.cpp">
+    <ClCompile Include="GeneratedFiles\Release\moc_musicWindow.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="ContactSelectDialog.cpp">
-      <Filter>Source Files\mobile</Filter>
+    <ClCompile Include="modules\music\musicWindow.cpp">
+      <Filter>Source Files\modules\music</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\gps\gpsWindow.cpp">
+      <Filter>Source Files\modules\gps</Filter>
+    </ClCompile>
+    <ClCompile Include="core\MusicPlayer.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gpsWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="t0.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="t0.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="t0.qrc">
       <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="musicWindow.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="musicWindow.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gpsWindow.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gpsWindow.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="mainWindow.ui">
-      <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="mainWindow.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="mobileWindow.ui">
+    <CustomBuild Include="ui\contactSelectDialog.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="mobileWindow.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="contactSelectDialog.ui">
+    <CustomBuild Include="ui\mainWindow.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="ContactSelectDialog.h">
-      <Filter>Header Files\mobile</Filter>
+    <CustomBuild Include="ui\mobileWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\musicWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\mobile\ContactSelectDialog.h">
+      <Filter>Header Files\modules\mobile</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\mobile\mobileWindow.h">
+      <Filter>Header Files\modules\mobile</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\music\musicWindow.h">
+      <Filter>Header Files\modules\music</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\gps\gpsWindow.h">
+      <Filter>Header Files\modules\gps</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\gpsWindow.ui">
+      <Filter>Form Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_t0.h">
-      <Filter>Generated Files</Filter>
+    <ClInclude Include="general.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_musicWindow.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_gpsWindow.h">
+    <ClInclude Include="GeneratedFiles\ui_contactSelectDialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_mainWindow.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="general.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MusicPlayer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_mobileWindow.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="ContactsDDBB.h">
-      <Filter>Header Files\ddbb</Filter>
+    <ClInclude Include="GeneratedFiles\ui_musicWindow.h">
+      <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_contactSelectDialog.h">
+    <ClInclude Include="modules\mobile\ContactsDDBB.h">
+      <Filter>Header Files\modules\mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="core\MusicPlayer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_gpsWindow.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
