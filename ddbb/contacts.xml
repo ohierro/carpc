@@ -1,0 +1,30 @@
+<contacts version="1.0">
+	<contact>
+		<name>Óliver</name>		
+		<phones>
+			<phone>
+				<name>Mio propio</name>
+				<type>MOBILE</type>
+				<number>669375509</number>
+			</phone>	
+			<phone>
+				<name>Casa</name>
+				<type>HOME</type>
+				<number>876160236</number>
+			</phone>	
+		</phones>
+	</contact>
+	<contact>
+		<name>Lauri</name>	
+		<phones>
+			<phone>
+				<name>Móvil</name>
+				<type>MOBILE</type>
+				<number>695172835</number>
+			</phone>			
+		</phones>
+	</contact>
+	<contact>
+		<name>Mamá</name>		
+	</contact>
+</contacts>
